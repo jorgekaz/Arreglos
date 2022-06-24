@@ -1,31 +1,15 @@
 # TP-ARREGLOS
-1.	Hacer una función que reciba como parámetro una matriz de números enteros y permita que el usuario ingrese valores al mismo por teclado. La función debe cargar la matriz por completo. 
-2.	Hacer una función que reciba como parámetro una matriz de números enteros y la muestre por pantalla (en formato matricial). 
-3.	Hacer una función que reciba como parámetro una matriz de números enteros y que cargue la misma con números aleatorios (sin intervención del usuario). La función debe cargar la matriz por completo. 
-4.	Hacer una función tipo int que sume el contenido total de una matriz de números enteros. 
-5.	Hacer una función tipo float que calcule el promedio de una matriz de números enteros. 
-6.	Hacer una función que determine si un elemento se encuentra dentro de una matriz de números enteros. La función recibe la matriz y el dato a buscar. 
-7.	Hacer una función que cargue un arreglo de palabras (strings). La función debe retornar cuantas palabras se cargaron. 
-8.	Hacer una función que muestre un arreglo de palabras. 
-9.	Hacer una función que determine si una palabra se encuentra dentro de un arreglo de palabras. La función recibe el arreglo, la cantidad de palabras que contiene y la palabra a buscar. 
-10.	Hacer una función (o varias) que ordene un arreglo de palabras por orden alfabético. (Por selección o inserción, el que más te guste).
-11.	Hacer una función que retorne el determinante de una matriz de 2x2. 
-12.	Función que verifique si una matriz de 2x2 tiene inversa. 
-13.	Hacer una función que multiplique una matriz de 2x2 por una matriz de 2x5. 
-14.	Hacer una función que calcule la matriz inversa de una matriz de 2x2. 
-15.	Los resultados de las últimas elecciones a Intendente en el pueblo “La Matrix” han sido los siguientes: 
-
-Distrito	Candidato A	Candidato B	Candidato C	Candidato D
-  1           194	        48	        206	        45
-  2           180	        20	        320	        16
-  3           221	        90	        140	        20
-  4           432	        51	        821       	14
-  5           820	        61	        946	        18
-
-Escribir un programa que haga las siguientes tareas: 
-a. Imprimir la tabla anterior con cabeceras incluidas.
-b. Calcular e imprimir el número total de votos recibidos por cada candidato y el porcentaje 
-total de votos emitidos. Así mismo, visualizar el candidato más votado. 
-c. Si algún candidato recibe más del 50% de los votos, el programa imprimirá un mensaje 
-declarándose ganador.
-d. Si algún candidato recibe menos del 50% de los votos, el programa debe imprimir el nombre de los dos candidatos más votados que serán los que pasen a la segunda ronda de las elecciones. 
+1.	HACER UNA FUNCIÓN QUE RECIBA COMO PARÁMETRO UN ARREGLO DE NÚMEROS ENTEROS Y PERMITA QUE EL USUARIO INGRESE VALORES AL MISMO POR TECLADO. LA FUNCIÓN DEBE RETORNAR LA CANTIDAD DE ELEMENTOS CARGADOS EN EL ARREGLO (O PUEDEN UTILIZAR COMO PUNTEROS VÁLIDOS). 
+2.	HACER UNA FUNCIÓN QUE RECIBA COMO PARÁMETRO UN ARREGLO Y LA CANTIDAD DE ELEMENTOS (VÁLIDOS) CARGADOS EN ÉL Y LOS MUESTRE POR PANTALLA. 
+3.	HACER UNA FUNCIÓN QUE RECIBA COMO PARÁMETRO UN ARREGLO Y LA CANTIDAD DE ELEMENTOS (VÁLIDOS) CARGADOS EN ÉL Y CALCULE LA SUMA DE SUS ELEMENTOS. 
+4.	HACER UNA FUNCIÓN QUE RECIBA COMO PARÁMETRO UN ARREGLO, LA CANTIDAD DE ELEMENTOS (VÁLIDOS) CARGADOS EN ÉL Y UNA PILA. LA FUNCIÓN DEBE COPIAR LOS ELEMENTOS DEL ARREGLO EN LA PILA. 
+5.	REALIZAR UNA FUNCIÓN QUE SUME LOS ELEMENTOS DE UN ARREGLO DE NÚMEROS REALES (FLOAT) DE DIMENSIÓN 100. (SE RECOMIENDA HACER UNA FUNCIÓN PARA CARGAR Y OTRA PARA MOSTRAR PARA ESTE TIPO DE DATO ASOCIADO AL ARREGLO)
+6.	REALIZAR UNA FUNCIÓN QUE INDIQUE SI UN ELEMENTO DADO SE ENCUENTRA EN UN ARREGLO DE CARACTERES. 
+7.	REALIZAR UNA FUNCIÓN QUE INSERTE UN CARÁCTER EN UN ARREGLO ORDENADO ALFABÉTICAMENTE, CONSERVANDO EL ORDEN. 
+8.	REALIZAR UNA FUNCIÓN QUE OBTENGA EL MÁXIMO CARÁCTER DE UN ARREGLO DADO. 
+9.	REALIZAR UNA FUNCIÓN QUE DETERMINE SI UN ARREGLO ES CAPICÚA. 
+10.	REALIZAR UNA FUNCIÓN QUE INVIERTA LOS ELEMENTOS DE UN ARREGLO.  (SIN UTILIZAR UN ARREGLO AUXILIAR)
+11.	ORDENAR UN ARREGLO SEGÚN LOS SIGUIENTES MÉTODOS: 
+a.	SELECCIÓN 
+b.	INSERCIÓN
+12.	DADOS DOS ARREGLOS ORDENADOS ALFABÉTICAMENTE, CREAR UN TERCER ARREGLO CON LOS ELEMENTOS DE LOS DOS PRIMEROS INTERCALADOS, DE MANERA QUE QUEDE UN ARREGLO TAMBIÉN ORDENADO ALFABÉTICAMENTE.
